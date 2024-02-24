@@ -24,6 +24,6 @@ VALUES ('$name', '$email', '$phone', '$gender', '$province', '$member', '$parish
 $rs = mysqli_query($con, $sql);
 
 if ($rs) {
-    echo "Contact Records Inserted";
+    echo "Hello $name , You have successfully registered for Priase Party 2.0. Your unique number is $code";
 }
 
