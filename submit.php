@@ -17,8 +17,8 @@ $code = mt_rand(10000, 99999);
 
 
 // database insert SQL code
-$sql = "INSERT INTO `praise_party_registrations` (`name`, `email`, `phone`, `gender`, `province`, `member`, `parish`, `code`) 
-VALUES ('$name', '$email', '$phone', '$gender', '$province', '$member', '$parish', '$code')";
+$sql = "INSERT INTO `praise_party_registrations` (`name`, `email`, `phone`, `gender`, `province`, `member`, `parish`, `code`, `created_at`) 
+VALUES ('$name', '$email', '$phone', '$gender', '$province', '$member', '$parish', '$code',now())";
 
 // insert in database
 $rs = mysqli_query($con, $sql);
