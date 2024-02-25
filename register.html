@@ -95,50 +95,49 @@
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form method="post" name="LIFT-Registration"   class="form-left">
+        <form method="post" name="LIFT-Registration" action="submit.php"  class="form-left">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" placeholder="Full Name" required />
-             
             </div>
             <div class="input-container">
                 <input type="email" name="email" placeholder="Email" class="input" required />
-                
-              </div>
+            </div>
             <div class="input-container">
-              <select name="Gender" class="input">
-                <option value="">Gender?</option>
+                <input type="text" name="phone" placeholder="Phone Number" class="input" required />
+            </div>
+
+            <div class="input-container">
+              <select name="gender" class="input" required>
+                <option value="">Select your Gender</option>
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
               </select>
             </div>
             <div class="input-container">
-                <select name="Member" class="input">
-                    <option value="">RCCG Member?</option>
+                <select name="member" class="input">
+                    <option value="">Are you an RCCG Member?</option>
                     <option value="YES">YES</option>
                     <option value="NO">NO</option>
                   </select>
-              </div>  <div class="input-container">
-               
-                <select name="Province" class="input" required>
-                    <option value="">Province?</option>
+              </div>
+              <div class="input-container">
+                <select name="province" class="input">
+                    <option value="">What is your Province?</option>
                     <option value="Province 20">Province 20</option>
                     <option value="Others">Others</option>
                   </select>
-              </div>  <div class="input-container">
-                <input type="text" name="Parish" placeholder="Parish" class="input" required />
-               
-              </div> 
-            
-
-
+              </div>
+              <div class="input-container">
+                <input type="text" name="parish" placeholder="Parish" class="input" />
+              </div>
             
             <input type="submit" value="Register" class="butn" />
             <a href="./index.html" class="butn" id="red">Go Back</a>
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_autoresponse" value="Thanks for your submission you will be contacted shortly">
            
-          </form>
+          </form> 
         </div>
       </div>
     </div>
