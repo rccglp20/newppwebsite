@@ -94,11 +94,15 @@
         <div class="contact-form">
           <span class="circle one"></span>
           <span class="circle two"></span>
+            <h3 class="title" style="color: green">
             <?php
             if (isset($_GET['message'])) {
                 echo htmlspecialchars($_GET['message']);
             }
             ?>
+            </h3>
+            <a href="./register.html" class="butn" id="red">Register Another</a>
+            <a href="./index.html" class="butn" id="red">Go Back</a>
         </div>
       </div>
     </div>
