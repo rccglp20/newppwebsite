@@ -29,7 +29,7 @@ $rs = mysqli_query($con, $sql);
 
 if ($rs) {
     $message = "Hello $name, You have successfully registered for Praise Party 2.0. Your unique number is $code";
-    header("Location: register.html?message=" . urlencode($message));
+    header("Location: success.php?message=" . urlencode($message));
     exit;
 } else {
     echo "Error: " . mysqli_error($con);
