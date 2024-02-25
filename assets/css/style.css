@@ -3,11 +3,8 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2022 codewithsadee x hype
  */
-
-
-
 
 
 /*-----------------------------------*\
@@ -164,7 +161,9 @@ body.active { overflow: hidden; }
 
 ::-webkit-scrollbar-thumb { background-color: var(--jet-2); }
 
-
+.preloader{
+  border-radius: 50%;
+}
 
 
 
