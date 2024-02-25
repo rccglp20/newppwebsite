@@ -9,12 +9,7 @@
     
     
   <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
 
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
@@ -41,8 +36,8 @@
                 colors="primary:#ffffff,secondary:#ffffff"
                 style="width:50px;height:50px">
             </lord-icon>
-              <p> RCCG Christ the Lord Parish Lagos Province 20 HQ,
-                1-5 Admirality Way, Lekki Phase 1</p>
+              <p> RCCG Christ the Lord parish,
+                1-5 admirality way, Lekki phase 1</p>
             </div>
             <div class="information">
                 <lord-icon
@@ -99,42 +94,44 @@
         <div class="contact-form">
           <span class="circle one"></span>
           <span class="circle two"></span>
-          <form method="post" name="LIFT-Registration" action="submit.php"  class="form-left">
+
+          <form method="post" name="LIFT-Registration"   class="form-left">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" placeholder="Full Name" required />
+             
             </div>
             <div class="input-container">
                 <input type="email" name="email" placeholder="Email" class="input" required />
-            </div>
+                
+              </div>
             <div class="input-container">
-                <input type="text" name="phone" placeholder="Phone Number" class="input" required />
-            </div>
-
-            <div class="input-container">
-              <select name="gender" class="input" required>
-                <option value="">Select your Gender</option>
+              <select name="Gender" class="input">
+                <option value="">Gender?</option>
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
               </select>
             </div>
             <div class="input-container">
-                <select name="member" class="input">
-                    <option value="">Are you an RCCG Member?</option>
+                <select name="Member" class="input">
+                    <option value="">RCCG Member?</option>
                     <option value="YES">YES</option>
                     <option value="NO">NO</option>
                   </select>
-              </div>
-              <div class="input-container">
-                <select name="province" class="input">
-                    <option value="">What is your Province?</option>
+              </div>  <div class="input-container">
+               
+                <select name="Province" class="input" required>
+                    <option value="">Province?</option>
                     <option value="Province 20">Province 20</option>
                     <option value="Others">Others</option>
                   </select>
-              </div>
-              <div class="input-container">
-                <input type="text" name="parish" placeholder="Parish" class="input" />
-              </div>
+              </div>  <div class="input-container">
+                <input type="text" name="Parish" placeholder="Parish" class="input" required />
+               
+              </div> 
+            
+
+
             
             <input type="submit" value="Register" class="butn" />
             <a href="./index.html" class="butn" id="red">Go Back</a>
@@ -147,6 +144,7 @@
     </div>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
     <script src="./assets/js/admin.js"></script>
+    <a href="https://lordicon.com/">Icons by Lordicon.com</a>
 
   </body>
 </html>
