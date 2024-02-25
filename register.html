@@ -95,8 +95,14 @@
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-        <form method="post" name="LIFT-Registration" action="submit.php"  class="form-left">
-            <h3 class="title">Contact us</h3>
+        <form method="post" name="PraiseParty-Registration" action="submit.php"  class="form-left">
+            <h3 class="title">Register for Praise Party 2.0</h3>
+
+            <?php
+            if (isset($_GET['message'])) {
+                echo htmlspecialchars($_GET['message']);
+            }
+            ?>
             <div class="input-container">
               <input type="text" name="name" class="input" placeholder="Full Name" required />
             </div>
@@ -137,7 +143,7 @@
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_autoresponse" value="Thanks for your submission you will be contacted shortly">
            
-          </form> 
+          </form>
         </div>
       </div>
     </div>
