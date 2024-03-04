@@ -19,11 +19,34 @@ button {
 button:focus {
   outline: 0;
 }
+
+.navbar{
+  padding: 0 45%;
+  cursor: pointer;
+
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.nav-link h1{
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 50px;
+  align-self: center;
+}
+.logo img{
+  width: 40px;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
 .card-list{
-  padding: 150px 0;
+  padding: 80px 0;
  display: flex;
  flex-direction: column;
- margin: 50px;
+ margin: 30px;
  align-items: center;
  gap: 50px;
 }
@@ -191,16 +214,11 @@ button:focus {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 576px) {
-  .card {
-    transform: rotate(90deg) scale(0.7) translate(calc(50% - 25vh), 50%);
-    position: static;
-  }
-}
+
 
 @-webkit-keyframes clickMe {
   50% {
-    opacity: 0.5;
+    opacity: 0.4;
   }
 }
 @keyframes clickMe {
@@ -208,3 +226,4 @@ button:focus {
     opacity: 0.5;
   }
 }
+

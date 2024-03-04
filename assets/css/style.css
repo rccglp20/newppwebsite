@@ -1740,7 +1740,9 @@ sup{
    * ABOUT
    */
 
-  .about { padding-block: 180px 120px; }
+  .about {
+    
+    padding-block: 180px 120px; }
 
 
 
