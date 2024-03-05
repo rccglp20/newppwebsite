@@ -146,6 +146,7 @@ a{
   color: #fff;
   /* opacity: 0.3; */
   text-decoration: none;
+  cursor: pointer;
 }
 .card .right .productInfo h3 {
   width: 80px;
@@ -226,4 +227,6 @@ a{
     opacity: 0.5;
   }
 }
-
+button{
+  z-index: 5000000000000000;
+}
