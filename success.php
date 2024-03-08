@@ -103,8 +103,10 @@
                     ?>
                 </h3>
               <br>
-              <p>Would you like to purchase merchandise for Praise Party 2.0? <a href="./merch-palava.html">Click here to purchase</a></p>
-                <a href="./register.html" class="butn" id="red">Register Another</a>
+              <p class="text">Would you like to purchase T-Shirts for Praise Party 2.0? <a class="text" style="color:green" href="./merch-palava.html">Click here to purchase</a></p>
+               <a href="./merch-palava.html" class="butn" id="red">Buy T-Shirt and Cap</a>
+              <br>
+              <a href="./register.html" class="butn" id="red">Register Another</a>
                 <a href="./index.html" class="butn" id="red">Go Back</a>
             </form>
         </div>
