@@ -72,23 +72,23 @@
          
           </div>
 
-          <div class="social-media">
-            <p>Connect with us:</p>
-            <div class="social-icons">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-whatsapp"></i>
-              </a>
+            <div class="social-media">
+                <p>Connect with us:</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rccglp20yaya">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/rccglp20">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rccglp20yaya">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- <a href="#">
+                       <i class="fab fa-whatsapp"></i>
+                     </a>-->
+                </div>
             </div>
-          </div>
         </div>
 
         <div class="contact-form">
