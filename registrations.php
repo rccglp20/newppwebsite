@@ -53,7 +53,7 @@
     }
 
     // SQL query to fetch data from the database
-    $sql = "SELECT `id`,`name`, `email`, `phone`, `gender`, `province`, `member`, `parish`, `code`, `created_at` FROM your_table";
+    $sql = "SELECT `id`,`name`, `email`, `phone`, `gender`, `province`, `member`, `parish`, `code`, `created_at` FROM praise_party_registrations";
     $result = $conn->query($sql);
 
     // Output data of each row
