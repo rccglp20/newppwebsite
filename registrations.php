@@ -22,7 +22,7 @@
 </head>
 <body>
 
-<h2>Data Table with Export</h2>
+<h2>Praise Party Registrations</h2>
 
 <table id="dataTable" class="display" style="width:100%">
     <thead>
