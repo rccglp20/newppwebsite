@@ -56,7 +56,7 @@
     }
 
     // SQL query to fetch data from the database
-    $sql = "SELECT `id`, `name`, `email`, `phone`, `gender`, `province`, `member`, `parish`, `code`, `created_at` FROM praise_party_registrations";
+    $sql = "SELECT `id`, `name`, `email`, `phone`, `gender`, `province`, `member`, `parish`, `code`, `created_at` FROM praise_party_registrations where email !='' and email is not null";
     $result = $conn->query($sql);
 
     // Output data of each row
