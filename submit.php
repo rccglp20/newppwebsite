@@ -12,7 +12,7 @@ $phone = $_POST['phone'];
 $gender = $_POST['gender'];
 $province = $_POST['province'];
 $member = $_POST['member'];
-$parish = $_POST['parish'];
+$parish = str_replace(["'"],'',$_POST['parish']);
 $code = mt_rand(10000, 99999);
 
 
